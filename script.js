@@ -9,8 +9,8 @@ let trackingSum =0, ans = [] , subArr= [];
 	}
 		else{
 			ans.push(subArr);
-			subArr = [arr[i]]
-			trackingSum += arr[i]
+			subArr = [arr[i]];
+			trackingSum += arr[i];
 		}
 	}
 		ans.push(subArr);
